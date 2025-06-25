@@ -6,19 +6,22 @@
     <title>Nossa História - [COLOQUE O NOME DA SUA NAMORADA AQUI]</title>
     
     <link rel="icon" type="image/png" href="images/favicon.png">
-
     <meta property="og:title" content="Uma Surpresa Para Você, Meu Amor ❤️">
     <meta property="og:description" content="Preparei algo especial para comemorar nossa história...">
     <meta property="og:image" content="[LINK COMPLETO PARA SUA IMAGEM DE PREVIEW]"> 
     <meta property="og:url" content="https://onlineornot.com/how-check-website-online">
-    <link rel="stylesheet" href="style.css">
     
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <div class="preloader">
+        <div class="preloader-heart"></div>
+        <div class="preloader-text">Preparando a Surpresa...</div>
+    </div>
     <nav class="navbar">
         <div class="nav-container">
             <a href="#hero" class="nav-logo">Nossa História ❤️</a>
@@ -63,13 +66,6 @@
                         <p>[COLOQUE AQUI SEU TEXTO sobre o início do namoro.]</p>
                     </div>
                 </div>
-                <div class="timeline-item hidden">
-                    <img src="images/timeline2.jpg" alt="[Descreva a foto do início do namoro]">
-                    <div class="timeline-text">
-                        <h3>2024: 1 de Janeiro, </h3>
-                        <p>[Ano novo.]</p>
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -85,13 +81,14 @@
                 <div class="gallery-item hidden"><img src="images/gallery6.jpg" alt="[Descrição da Foto 7]"></div>
                 <div class="gallery-item hidden"><img src="images/gallery6.jpg" alt="[Descrição da Foto 8]"></div>
                 <div class="gallery-item hidden"><img src="images/gallery6.jpg" alt="[Descrição da Foto 9]"></div>
+            
             </div>
         </section>
         
         <section id="playlist">
             <h2>Nossa Trilha Sonora</h2>
             <p>Aperte o play e continue navegando pela nossa história.</p>
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWVlLVXKTOAYa?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </section>
 
         <section id="map">
@@ -107,26 +104,52 @@
         </section>
 
         <section id="reasons">
-            <h2>Alguns Motivos (entre infinitos) que me fazem te amar</h2>
+            <h2>Alguns Motivos que me fazem te amar</h2>
+            <p>Passe o mouse (ou toque) nos cartões para revelar</p>
             <div class="reasons-container">
                 <div class="reason-card hidden">
-                    <span class="reason-number">1</span>
-                    <p>Pelo jeito que seu olho brilha quando você fala de algo que ama.</p>
+                    <div class="reason-card-inner">
+                        <div class="reason-card-front">
+                            <span class="reason-number">1</span>
+                        </div>
+                        <div class="reason-card-back">
+                            <p>Pelo jeito que seu olho brilha quando você fala de algo que ama.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="reason-card hidden">
-                    <span class="reason-number">2</span>
-                    <p>Pela sua paciência infinita para ouvir minhas ideias mais malucas.</p>
+                    <div class="reason-card-inner">
+                        <div class="reason-card-front">
+                            <span class="reason-number">2</span>
+                        </div>
+                        <div class="reason-card-back">
+                            <p>Pela sua paciência infinita para ouvir minhas ideias mais malucas.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="reason-card hidden">
-                    <span class="reason-number">3</span>
-                    <p>Pelo seu abraço, que se tornou meu lugar seguro no mundo.</p>
+                    <div class="reason-card-inner">
+                        <div class="reason-card-front">
+                            <span class="reason-number">3</span>
+                        </div>
+                        <div class="reason-card-back">
+                            <p>Pelo seu abraço, que se tornou meu lugar seguro no mundo.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="reason-card hidden">
-                    <span class="reason-number">4</span>
-                    <p>Pela a companheira que sempre está comigo em todos os momentos.</p>
+                    <div class="reason-card-inner">
+                        <div class="reason-card-front">
+                            <span class="reason-number">4</span>
+                        </div>
+                        <div class="reason-card-back">
+                            <p>Pela a companheira que sempre está comigo em todos os momentos.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+
         <section id="video">
             <h2>E para terminar... uma surpresa</h2>
             <p>Aperte o play. Eu tenho algo pra te dizer.</p>
@@ -134,6 +157,7 @@
                 <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
+
         <section id="message">
             <h2>Uma Mensagem Final</h2>
             <p>[COLOQUE AQUI SUA MENSAGEM PESSOAL, seus agradecimentos e sua declaração.]</p>
