@@ -36,7 +36,7 @@ if (hamburger && navMenu && navBar) {
 
 
 // --- LÓGICA DO CONTADOR DE TEMPO JUNTOS ---
-const startDate = new Date(2023, 7, 12);
+const startDate = new Date(2023, 7, 15);
 const timerElement = document.getElementById('timer');
 
 function updateTimer() {
